@@ -47,6 +47,19 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        bingo: {
+          marked: "hsl(var(--bingo-marked))",
+          "marked-foreground": "hsl(var(--bingo-marked-foreground))",
+          hover: "hsl(var(--bingo-hover))",
+          winner: "hsl(var(--bingo-winner))",
+          card: "hsl(var(--bingo-card))",
+          shadow: "hsl(var(--bingo-shadow))",
+        },
+        education: {
+          primary: "hsl(var(--education-primary))",
+          secondary: "hsl(var(--education-secondary))",
+          accent: "hsl(var(--education-accent))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
